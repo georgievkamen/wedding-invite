@@ -62,7 +62,7 @@
 .title {
   font-family: 'Lobster', cursive;
   font-size: 40px;
-  margin-bottom: 0;
+  margin: 0;
   color: #275B52;
 }
 
@@ -119,6 +119,7 @@
 
 .infoImage {
   width: 500px;
+  height: 624px;
   border: 2px solid #fff;
   border-top-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -196,6 +197,11 @@
     width: 400px;
   }
 
+
+  .infoImage {
+    height: 499px;
+  }
+
   .infoWrapper {
     justify-content: space-around;
   }
@@ -226,9 +232,10 @@
     display: block;
     max-width: 550px;
   }
- 
+
   .infoMobileImage {
-    max-width: 550px;
+    max-width: 280px;
+    height: 188px;
     border: 2px solid #fff;
     border-top-right-radius: 6px;
     border-bottom-left-radius: 6px;
@@ -241,7 +248,7 @@
 
   .infoWrapper {
     flex-direction: column;
-  }  
+  }
 
   .infoText {
     margin-top: 16px;
@@ -270,7 +277,7 @@
   .info {
     font-size: 16px;
   }
-  
+
   .title {
     font-size: 30px;
   }
@@ -278,10 +285,11 @@
   .infoImageMobileWrapper {
     max-width: 280px;
   }
- 
+
   .infoMobileImage {
     max-width: 280px;
-  } 
+    height: 188px;
+  }
 
   .infoText {
     width: 350px;
@@ -291,7 +299,7 @@
   .countdownSection {
     border: 1px solid #cfa45e;
     width: 50px;
-  
+
     span {
       font-size: 9px;
     }
