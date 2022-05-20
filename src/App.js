@@ -62,7 +62,7 @@ const App = () => {
               date={new Date('28 August, 2022').toDateString()} 
               renderer={renderer}
             />
-            <button onClick={(e) => {window.open("http://google.com");}}
+            <button onClick={(e) => {window.open("https://docs.google.com/forms/d/1j1kHqKrragaHzDPlWtb-ceGW1l6_z4vRDilCk4UwW0Q/edit?usp=sharing_eil_se_dm&ts=62866bf1");}}
              className={appStyles.button}>Вашата покана</button>
           </div>
         </div>
