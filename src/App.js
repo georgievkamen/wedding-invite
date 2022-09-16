@@ -54,16 +54,11 @@ const App = () => {
           <img src={flowerBottom} className={appStyles.flowerBottom} />
           <div className={appStyles.info}>
             <div className={appStyles.mobileLandingImage}></div>
-            <h1 className={appStyles.title1}>Камен и Мария</h1>
-            <h1 className={appStyles.title}>р-т "Елинор", Хасково</h1>
-            <span>27 aвгуст 2022 г.</span>
-            <span>Оставащо време</span>
-            <Countdown
-              date={new Date('28 August, 2022').toDateString()} 
-              renderer={renderer}
-            />
-            <button onClick={(e) => {window.open("https://docs.google.com/forms/d/1j1kHqKrragaHzDPlWtb-ceGW1l6_z4vRDilCk4UwW0Q/edit?usp=sharing_eil_se_dm&ts=62866bf1");}}
-             className={appStyles.button}>Вашата покана</button>
+            <h1 className={appStyles.title1}>Семейство Георгиеви</h1>
+            <span>Since 27.07.2022</span>
+            <h1 className={appStyles.title}>Wedding photos coming soon</h1>
+            <button disabled={true} onClick={(e) => {window.open("https://docs.google.com/forms/d/1j1kHqKrragaHzDPlWtb-ceGW1l6_z4vRDilCk4UwW0Q/edit?usp=sharing_eil_se_dm&ts=62866bf1");}}
+             className={appStyles.button}>Сватбени Снимки</button>
           </div>
         </div>
         <div className={appStyles.rightSection}>
