@@ -60,7 +60,9 @@ const App = () => {
             <h1 className={appStyles.title}>Wedding photos coming soon</h1>
             <button disabled={true} onClick={(e) => {window.open("https://docs.google.com/forms/d/1j1kHqKrragaHzDPlWtb-ceGW1l6_z4vRDilCk4UwW0Q/edit?usp=sharing_eil_se_dm&ts=62866bf1");}}
              className={appStyles.button}>Сватбени Снимки</button>
-            <ReactPlayer url={"https://www.youtube.com/watch?v=omfz62qu_Bc&ab_channel=UPROXXVideo"} controls={true} />
+            <iframe className={appStyles.reactPlayer}
+                    src="https://www.youtube.com/embed/mwgZalAFNhM">
+            </iframe>
           </div>
         </div>
         <div className={appStyles.rightSection}>

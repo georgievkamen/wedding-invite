@@ -43,6 +43,11 @@
   background-size: cover;
 }
 
+.reactPlayer {
+  width: 630px;
+  height: 450px;
+}
+
 .flowerBottom {
   width: 220px;
   position: absolute;
@@ -271,6 +276,11 @@
   .flowerBottom,
   .flowerTop {
     width: 100px;
+  }
+
+  .reactPlayer {
+    width: 350px;
+    height: 220px;
   }
 
   .flowerBottom {
